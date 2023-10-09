@@ -15,7 +15,7 @@
 - Evaluate the model on the test set to assess its performance.
 - You can use a variety of machine learning algorithms for email spam detection, such as Naive Bayes, Logistic Regression, Support Vector Machines, and Random Forests.
 
--Example
+# Example
 
 - Here is an example of how to use the dataset to train a Naive Bayes model for email spam detection using Python and other models are attached within this repository :
 
