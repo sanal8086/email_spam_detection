@@ -24,17 +24,17 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 
-# Load the dataset
+## Load the dataset
 df = pd.read_csv('email_spam_detection.csv')
 
-# Split the dataset into train and test sets
+## Split the dataset into train and test sets
 X_train, X_test, y_train, y_test = train_test_split(df[['Feature 1', 'Feature 2', ..., 'Feature 3000']], df['Label'], test_size=0.25, random_state=42)
 
-# Train a Naive Bayes model
+## Train a Naive Bayes model
 model = MultinomialNB()
 model.fit(X_train, y_train)
 
-# Evaluate the model on the test set
+## Evaluate the model on the test set
 y_pred = model.predict(X_test)
 accuracy = (y_pred == y_test).mean()
 
