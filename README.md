@@ -17,7 +17,7 @@
 
 # Example
 
-- Here is an example of how to use the dataset to train a Naive Bayes model for email spam detection using Python and other models are attached within this repository :
+- Here is an example of how to use the dataset to train a Naive Bayes model for email spam detection using Python the highest accuracy prediction got is using logistic regression it is also attached with in this repository  :
 
 Python
 import pandas as pd
